@@ -1,0 +1,32 @@
+.chat-room__screen {
+  background-color: #abc1d0;
+  height: 11000vh;
+}
+.chat-room__screen .status-bar {
+  background-color: #abc1d0;
+  z-index: 2;
+}
+
+.chat-room__screen .alt-header {
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #abc1d0;
+}
+
+.main-chat {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-room__timestamp {
+  color: white;
+  font-size: 14px;
+  background-color: #91a3b1;
+  padding: 10px;
+  border-radius: 25px;
+}
